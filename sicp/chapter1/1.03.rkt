@@ -7,4 +7,4 @@
         ((and (< x y) (< x z)) (+ (* y y) (* z z)))
         ((and (> x z) (> y z)) (+ (* x x) (* y y)))))
 
-(check-equal? (function 2 4 6) 53)
+(check-equal? (function 2 4 6) 52)
